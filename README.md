@@ -42,13 +42,29 @@ pip install Flask
 Check the installed packages:
 ```sh
 pip list
+
 ```
 
-#### Step 7: Deactivate the Virtual Environment
+#### Step 7 After you've activated your virtual environment and installed all the necessary packages for your project, 
+you can generate a requirements.txt file using the following command:
+```sh
+pip freeze > requirements.txt
+```
+This command will create a requirements.txt file in your current directory, 
+listing all installed packages and their versions.
+
+#### Step 8: Deactivate the Virtual Environment
 When you're done, deactivate the virtual environment:
 ```sh
 deactivate
 ```
+
+#### READ THIS-To install the libraries listed in the requirements.txt file when your first running the project, you can use the following command:
+```sh
+pip install -r requirements.txt
+
+```
+ 
 
 ### Setting Up a Virtual Environment on Windows
 

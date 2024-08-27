@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'press start 2p', 'consalas', 'sans-serif';
+    }
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    line-height: 1.6
+}
+
+li{ 
+    
+    display: inline-block;
+    font-family: 'press start 2p';
+}
+ul {
+    list-style-type: none; 
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: rgb(141, 141, 141);
+    font-family: 'press start 2p';
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    height: fit-content;
+    border-top-style: none;
+}
+
+a{
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'consolas', sans-serif;
+    color: hsl(0, 0%, 0%);
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    background:rgb(141, 141, 141);
+    border-radius: 15px;
+    padding: 10px;
+    width: 30%;
+    height: 50%;
+    border-style: solid;
+    margin: .5%;
+
+}
+img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+    border-radius: 1%;
+}
+.about{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: large;
+}
+header{
+    background-color: rgb(141, 141, 141);
+    height: 100px;
+    padding: 0%;
+    border-style: dashed;
+    height: fit-content;
+}
+h2{
+    text-align: center;
+    font-family: 'press start 2p';
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
